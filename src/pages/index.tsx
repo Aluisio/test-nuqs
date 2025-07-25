@@ -14,6 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export default function Home() {
+  const [name, setName] = useQueryState('name')
+
   return (
     <>
       <Head>
